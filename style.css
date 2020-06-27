@@ -1,0 +1,44 @@
+.main
+{
+    background-color: #f8f9fa;
+    border: 3px solid #bdc3c9;
+    width: 210px;
+    margin: 50px auto;
+}
+.inpt
+{
+    
+    width: 100%;
+}
+#fo
+{
+    width: 23%;
+}
+#th
+{
+    margin-top: 5px;
+    width: 31%;
+}
+#tw
+{
+    width: 48%;
+}
+.sign
+{
+ color: red !important;
+}
+.sign:hover
+{
+    color:white !important;
+    background-color : red !important;
+}
+.nmbr
+{
+    
+ color: orange !important;
+}
+.nmbr:hover
+{
+    color:white !important;
+    background-color : orange !important;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+ <div class="main">
+    <div>
+        <div> <input class="inpt" id="inpt" type="text" placeholder="0"> </div>
+        <div>
+            <button id="th" type="button" class="btn btn-light sign" onclick="clearinput()">C</button>
+            <button id="th"type="button" class="btn btn-light sign"onclick='getNumber("/")'>/</button>
+            <button id="th"type="button" class="btn btn-light sign"onclick='getNumber("%")'>%</button>
+        </div>
+        <div>
+            <button id="fo"type="button" class="btn btn-light nmbr"onclick=" getNumber('7') ">7</button>
+            <button id="fo"type="button" class="btn btn-light nmbr"onclick="getNumber('8')">8</button>
+            <button id="fo"type="button" class="btn btn-light nmbr "onclick="getNumber('9')">9</button>
+            <button id="fo"type="button" class="btn btn-light sign"onclick="getNumber('*')">X</button>
+        </div>
+        <div>
+            <button id="fo"type="button" class="btn btn-light nmbr "onclick="getNumber('4')">4</button>
+            <button id="fo"type="button" class="btn btn-light nmbr "onclick="getNumber('5')">5</button>
+            <button id="fo"type="button" class="btn btn-light nmbr "onclick="getNumber('6')">6</button>
+            <button id="fo"type="button" class="btn btn-light sign"onclick="getNumber('-')">-</button>
+        </div>
+        <div>
+            <button id="fo"type="button" class="btn btn-light nmbr "onclick="getNumber('1')">1</button>
+            <button id="fo"type="button" class="btn btn-light nmbr "onclick="getNumber('2')">2</button>
+            <button id="fo"type="button" class="btn btn-light nmbr "onclick="getNumber('3')">3</button>
+            <button id="fo"type="button" class="btn btn-light sign "onclick="getNumber('+')">+</button>
+        </div>
+        <div>
+            <button id="th"type="button" class="btn btn-light nmbr "onclick="getNumber('0')">0</button>
+            <button id="th"type="button" class="btn btn-light nmbr "onclick="getNumber('00')">00</button>
+            <button id="th"type="button" class="btn btn-light sign"onclick="showresult()">=</button>
+        </div>
+    </div>
+ </div>
+
+
+
+
+    <script src="app.js"> </script>
+</body>
+</html>
